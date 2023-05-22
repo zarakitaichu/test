@@ -21,8 +21,8 @@
     3. LSTM
 
 - **Creation of image embeddings**:
-  1. ResNet (pre-trained) + KNN/Cosine Similarity
-  2. EfficientNet + KNN/Cosine Similarity
+  - ResNet (pre-trained) + KNN/Cosine Similarity
+  - EfficientNet + KNN/Cosine Similarity
 
 **Combining text and image embeddings**: The embedding output of text and images will be concatenated to check whether the results can be bettered compared to independent model runs via text embeddings and image embedding
 
